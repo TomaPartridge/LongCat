@@ -11,7 +11,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int a = 6 + 3;
-            Console.WriteLine("Happy End");
+            string str=Console.ReadLine();//но тут не показывают ошибки
+            Console.WriteLine("Happy End"+str);
             Console.ReadKey();
         }
     }
